@@ -88,30 +88,35 @@ select region, COUNT(*) AS Numberofsales
 from [LITA Capstone CustomerData_Subscription]
 Group by Region
 Order by Region
+```
 
 ```
 SELECT subscriptionType,
 Sum(Revenue) AS totalsales
 from [LITA Capstone CustomerData_Subscription]
 Group by subscriptionType
+```
 
 ```
 Select COUNT(CUSTOMERID) AS Customerperregion, Region 
 FROM [LITA Capstone CustomerData_Subscription]
 Group by Region
 Having COUNT(CustomerID) >=5
+```
 
 ```
 SELECT TOP 1 subscriptiontype, COUNT(*) AS total_customers
 FROM [LITA Capstone CustomerData_Subscription]
 GROUP BY subscriptiontype
 ORDER BY total_customers DESC
+```
 
 ```
 SELECT
 customerid
 FROM [LITA Capstone CustomerData_Subscription]
 WHERE DATEDIFF(DAY, subscriptionStart, subscriptionEnd) >= 365;
+```
 
 ```
 SELECT Canceled, COUNT(*) AS subscription_count
@@ -119,6 +124,7 @@ FROM [LITA Capstone CustomerData_Subscription]
 WHERE Canceled = '1' 
 GROUP BY Canceled
 ORDER BY 1 DESC;
+```
 
 ```
 SELECT Canceled, COUNT(*) AS subscription_count
@@ -126,6 +132,7 @@ FROM [LITA Capstone CustomerData_Subscription]
 WHERE Canceled = '0' 
 GROUP BY Canceled
 ORDER BY 1 DESC;
+```
 
 ```
 SELECT 
@@ -134,13 +141,25 @@ FROM
     [LITA Capstone CustomerData_Subscription]
 WHERE 
     Canceled = '1';
+```
 
 ```
+SELECT 
+    Canceled,
+    COUNT(*) AS total
+FROM 
+    [LITA Capstone CustomerData_Subscription]
+WHERE 
+    canceled IN ('0', '1')
+GROUP BY 
+    canceled;
+```
+
+
 SELECT 
     COUNT(*) AS total_active
 FROM 
     [LITA Capstone CustomerData_Subscription]
 WHERE 
     Canceled = '0';
-
 ```
