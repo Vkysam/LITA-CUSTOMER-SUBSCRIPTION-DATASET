@@ -163,3 +163,6 @@ FROM
 WHERE 
     Canceled = '0';
 ```
+
+![Screenshot 2024-11-03 002326](https://github.com/user-attachments/assets/172e26fe-dfb8-4333-9da1-190c34e6698a)
+
