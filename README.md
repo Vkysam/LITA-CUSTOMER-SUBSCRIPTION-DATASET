@@ -84,28 +84,28 @@ EDA involved the exploring of the Data to answer some questions about the Data s
 ![Screenshot 2024-11-01 064134](https://github.com/user-attachments/assets/cd1881a5-6db7-4a1b-a658-a3ccdb2e2acb)
 
 ```
-select region, COUNT(*) AS Numberofsales
+  select region, COUNT(*) AS Numberofsales
 from [LITA Capstone CustomerData_Subscription]
 Group by Region
 Order by Region
 ```
 
 ```
-SELECT subscriptionType,
+   SELECT subscriptionType,
 Sum(Revenue) AS totalsales
 from [LITA Capstone CustomerData_Subscription]
 Group by subscriptionType
 ```
 
 ```
-Select COUNT(CUSTOMERID) AS Customerperregion, Region 
+   Select COUNT(CUSTOMERID) AS Customerperregion, Region 
 FROM [LITA Capstone CustomerData_Subscription]
 Group by Region
 Having COUNT(CustomerID) >=5
 ```
 
 ```
-SELECT TOP 1 subscriptiontype, COUNT(*) AS total_customers
+   SELECT TOP 1 subscriptiontype, COUNT(*) AS total_customers
 FROM [LITA Capstone CustomerData_Subscription]
 GROUP BY subscriptiontype
 ORDER BY total_customers DESC
@@ -113,9 +113,9 @@ ORDER BY total_customers DESC
 
 ```
 SELECT
-customerid
-FROM [LITA Capstone CustomerData_Subscription]
-WHERE DATEDIFF(DAY, subscriptionStart, subscriptionEnd) >= 365;
+     customerid
+     FROM [LITA Capstone CustomerData_Subscription]
+     WHERE DATEDIFF(DAY, subscriptionStart, subscriptionEnd) >= 365;
 ```
 
 ```
@@ -155,7 +155,7 @@ GROUP BY
     canceled;
 ```
 
-
+```
 SELECT 
     COUNT(*) AS total_active
 FROM 
@@ -165,5 +165,6 @@ WHERE
 ```
 
 ![Screenshot 2024-11-03 002326](https://github.com/user-attachments/assets/172e26fe-dfb8-4333-9da1-190c34e6698a)
+
 
 ![Screenshot 2024-11-03 002326](https://github.com/user-attachments/assets/7260b43b-4c2a-47b4-abef-2f85aa532e0c)
