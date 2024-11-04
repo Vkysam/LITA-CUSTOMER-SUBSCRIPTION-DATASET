@@ -1,8 +1,5 @@
 ### PROJECT TITLE: LITA-CAPSTONE-CUSTOMER-SUBSCRIPTION-DATASET ANALYSIS PROJECT
 
-### ABOUT
-This is a project repository that I have created to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
-
 ### CONTENT
 
 [Project Overview](#Project-Overview)
