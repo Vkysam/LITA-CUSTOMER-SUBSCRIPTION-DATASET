@@ -1,11 +1,9 @@
-# LITA-CUSTOMER-SUBSCRIPTION-DATASET
+### LITA-CAPSTONE-CUSTOMER-SUBSCRIPTION-DATASET ANALYSIS PROJECT
 
+### ABOUT
+This is a project repository that I have created to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
 
-##VICTORIA SAMUEL_ DATA ANALYST PORTFOLIO 
-
-This is a repository to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
-
-# LITA-DATA-ANALYSIS-DOCUMENTATION
+### CONTENT
 
 [Goal](#goal)
 [Description](#Description)
@@ -164,7 +162,6 @@ WHERE
     Canceled = '0';
 ```
 
-![Screenshot 2024-11-03 002326](https://github.com/user-attachments/assets/172e26fe-dfb8-4333-9da1-190c34e6698a)
+![Screenshot 2024-11-04 102153](https://github.com/user-attachments/assets/805319a1-cfbd-4b84-b850-37d702d0c647)
 
 
-![Screenshot 2024-11-03 002326](https://github.com/user-attachments/assets/7260b43b-4c2a-47b4-abef-2f85aa532e0c)
