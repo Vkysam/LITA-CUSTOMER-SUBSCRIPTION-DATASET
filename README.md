@@ -5,6 +5,7 @@ This is a project repository that I have created to showcase skills, share proje
 
 ### CONTENT
 
+[Project Overview](#Project-Overview)
 [Goal](#goal)
 [Description](#Description)
 [Data Sources](#Data-Sources)
@@ -15,6 +16,11 @@ This is a project repository that I have created to showcase skills, share proje
 [Exploratoratory Data Analysis](#Exploratoratory-Data-Analysis)
 [Data Analysis](#Data-Analysis)
 [Data Visualization](#Data-Visualization)
+
+### PROJECT OVERVIEW
+
+This data Analysis project aims to give insights on the sales performance of the CAPSTONE SUBSCRIPTION DATASET
+project for a period of two years. These analysis will help make informed decisions for a possible growth strategies.
 
 ### Goal
 ---
@@ -81,42 +87,42 @@ EDA involved the exploring of the Data to answer some questions about the Data s
 
 ![Screenshot 2024-11-01 064134](https://github.com/user-attachments/assets/cd1881a5-6db7-4a1b-a658-a3ccdb2e2acb)
 
-```
+```SQL
   select region, COUNT(*) AS Numberofsales
 from [LITA Capstone CustomerData_Subscription]
 Group by Region
 Order by Region
 ```
 
-```
+```SQL
    SELECT subscriptionType,
 Sum(Revenue) AS totalsales
 from [LITA Capstone CustomerData_Subscription]
 Group by subscriptionType
 ```
 
-```
+```SQL
    Select COUNT(CUSTOMERID) AS Customerperregion, Region 
 FROM [LITA Capstone CustomerData_Subscription]
 Group by Region
 Having COUNT(CustomerID) >=5
 ```
 
-```
+```SQL
    SELECT TOP 1 subscriptiontype, COUNT(*) AS total_customers
 FROM [LITA Capstone CustomerData_Subscription]
 GROUP BY subscriptiontype
 ORDER BY total_customers DESC
 ```
 
-```
+```SQL
 SELECT
      customerid
      FROM [LITA Capstone CustomerData_Subscription]
      WHERE DATEDIFF(DAY, subscriptionStart, subscriptionEnd) >= 365;
 ```
 
-```
+```SQL
 SELECT Canceled, COUNT(*) AS subscription_count
 FROM [LITA Capstone CustomerData_Subscription]
 WHERE Canceled = '1' 
@@ -124,7 +130,7 @@ GROUP BY Canceled
 ORDER BY 1 DESC;
 ```
 
-```
+```SQL
 SELECT Canceled, COUNT(*) AS subscription_count
 FROM [LITA Capstone CustomerData_Subscription]
 WHERE Canceled = '0' 
@@ -132,7 +138,7 @@ GROUP BY Canceled
 ORDER BY 1 DESC;
 ```
 
-```
+```SQL
 SELECT 
     COUNT(*) AS total_active
 FROM 
@@ -141,7 +147,7 @@ WHERE
     Canceled = '1';
 ```
 
-```
+```SQL
 SELECT 
     Canceled,
     COUNT(*) AS total
@@ -153,7 +159,7 @@ GROUP BY
     canceled;
 ```
 
-```
+```SQL
 SELECT 
     COUNT(*) AS total_active
 FROM 
