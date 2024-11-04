@@ -1,4 +1,4 @@
-### LITA-CAPSTONE-CUSTOMER-SUBSCRIPTION-DATASET ANALYSIS PROJECT
+### PROJECT TITLE: LITA-CAPSTONE-CUSTOMER-SUBSCRIPTION-DATASET ANALYSIS PROJECT
 
 ### ABOUT
 This is a project repository that I have created to showcase skills, share projects and track my progress in Data Analytics / Data Science related topics.
@@ -170,4 +170,5 @@ WHERE
 
 ![Screenshot 2024-11-04 102153](https://github.com/user-attachments/assets/805319a1-cfbd-4b84-b850-37d702d0c647)
 
+💻
 
