@@ -11,7 +11,7 @@
 [Skills](#skills)
 [Data Cleaning and Preparations](#data-cleaning-and-preparations)
 [Exploratoratory Data Analysis](#exploratoratory-data-analysis)
-[Data Analysis and Data Visualization](#data-analysis-data-visualization)
+[Data Analysis and Data Visualization](#data-analysis-and-visualization)
 
 
 ### PROJECT OVERVIEW
