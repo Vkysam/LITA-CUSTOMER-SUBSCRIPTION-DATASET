@@ -2,17 +2,17 @@
 
 ### CONTENT
 
-[Project Overview](#Project-Overview)
+[Project Overview](#project-overview)
 [Goal](#goal)
-[Description](#Description)
-[Data Sources](#Data-Sources)
-[Technology Used](#Technology-Used)
-[Tools Used](#Tools-Used)
-[Skills](#Skills)
-[Data Cleaning and Preparations](#Data-Cleaning-and-Preparations)
-[Exploratoratory Data Analysis](#Exploratoratory-Data-Analysis)
-[Data Analysis](#Data-Analysis)
-[Data Visualization](#Data-Visualization)
+[Description](#description)
+[Data Sources](#data-Sources)
+[Technology Used](#technology-Used)
+[Tools Used](#tools-Used)
+[Skills](#skills)
+[Data Cleaning and Preparations](#data-cleaning-and-preparations)
+[Exploratoratory Data Analysis](#exploratoratory-data-analysis)
+[Data Analysis](#data-analysis)
+[Data Visualization](#data-isualization)
 
 ### PROJECT OVERVIEW
 
