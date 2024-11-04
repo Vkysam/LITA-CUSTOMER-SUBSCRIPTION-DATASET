@@ -77,7 +77,7 @@ EDA involved the exploring of the Data to answer some questions about the Data s
  - What is the overall sales trend
  - What was the subscription on peak sales
 
-### Data Analysis
+### DATA ANALYSIS AND VISUALIZATION
 ---
 
 ![Screenshot 2024-11-01 064032](https://github.com/user-attachments/assets/a0d5d6cc-a706-469e-974e-25fe77621790)
